@@ -14,7 +14,7 @@ var logo_scale = 60; // Logo sale factor (in percents)
 var logo_x = 0; // Logo correction factor for X-position (in pixels);
 var logo_y = 0; // Logo correction factor for Y-position (in pixels);
 var logo_url_enable = true; // Make logo clickable (true, false)  
-var logo_url = "http://kontramax.com"; // Specify URL when clicking on logo
+var logo_url = "https://www.facebook.com/nhat.nguyen.7712"; // Specify URL when clicking on logo
 var logo_url_target = "_self"; // Targeting (_blank, _self, _parent, _top)
 
 var flickering = true; // Flickering (true, false)
