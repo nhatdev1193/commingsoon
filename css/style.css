@@ -1,0 +1,128 @@
+@charset "windows-1251";
+/* CSS Document */ 
+
+html, body{
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #e2e7ed;  /* Red used for testing */
+}
+a {
+	padding: 0 3px 0 3px;
+	color: #46b4ea;
+	text-decoration: none;
+}
+a.twitter_link { 
+	color: #46b4ea;
+}
+a.twitter_link:hover { 
+	background: #46b4ea;
+	color: #FFF;
+	border-radius: 15px 15px 15px 15px;
+}
+a.facebook_link { 
+	color: #627aad;
+}
+a.facebook_link:hover { 
+	background: #627aad;
+	color: #FFF;
+	border-radius: 15px 15px 15px 15px;
+}
+
+#animation {
+	background-color: #e2e7ed; /* Background color */
+	position: relative;
+}
+#counter {
+	position: absolute;
+}
+#description_txt {
+	position: absolute;
+	width: 490px;
+}
+#txt1 {
+	float: left; 
+	width: 50%;
+	font-family: 'Sniglet', cursive;
+	font-size: 102px;
+	line-height: 0.9;
+	color: #AABBCC;
+	text-align: right;
+}
+#txt2 {
+	float: right; 
+	width: 48%;
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+	line-height: 1.5;
+	color: #495272;
+	text-align: left;
+}
+
+/* jQuery Countdown styles 1.6.1. - plugin by Keith Wood */
+
+#defaultCountdown {
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	line-height: 2;
+	color: #495272; /* Color of text */
+	width: 300px;
+}
+.hasCountdown {
+	/*border: 1px solid #ccc;*/
+}
+.countdown_rtl {
+	direction: rtl;
+}
+.countdown_holding span {
+	color: #888;
+}
+.countdown_row {
+	clear: both;
+	width: 100%;
+	padding: 0px 2px;
+	text-align: center;
+}
+.countdown_show1 .countdown_section {
+	width: 98%;
+}
+.countdown_show2 .countdown_section {
+	width: 48%;
+}
+.countdown_show3 .countdown_section {
+	width: 20%; /* Original width was 32.5% */
+}
+.countdown_show4 .countdown_section {
+	width: 20%; /* Original width was 24.5% */
+}
+.countdown_show5 .countdown_section {
+	width: 19.5%;
+}
+.countdown_show6 .countdown_section {
+	width: 16.25%;
+}
+.countdown_show7 .countdown_section {
+	width: 14%;
+}
+.countdown_section {
+	display: block;
+	float: left;
+	font-size: 75%;
+	text-align: center;
+	background: #AABBCC; /* Color of counter circles */
+	width: 70px;
+	height: 59px;
+	border-radius: 50%;
+	margin: 0 10px 0 0;
+}
+.countdown_amount {
+	font-family: 'Sniglet', cursive;
+	font-size: 220%;
+	color: #fbfcfc; /* Color of counter digits */
+	line-height: 2.3;
+	
+}
+.countdown_descr {
+	display: block;
+	width: 100%;
+}
